@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="csc-task-dao:war">
+    <output-path>$PROJECT_DIR$/csc-task/csc-task-dao/target</output-path>
+    <root id="archive" name="csc-task-dao.war">
+      <element id="artifact" artifact-name="csc-task-dao:war exploded" />
+    </root>
+  </artifact>
+</component>

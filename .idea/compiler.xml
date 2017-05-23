@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="csc-task-api" />
+        <module name="csc-task-common" />
+        <module name="csc-task-dao" />
+        <module name="csc-task-model" />
+        <module name="csc-task-rpc-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="csc-final" target="1.8" />
+      <module name="csc-task" target="1.8" />
+      <module name="csc-task-api" target="1.8" />
+      <module name="csc-task-common" target="1.8" />
+      <module name="csc-task-dao" target="1.8" />
+      <module name="csc-task-model" target="1.8" />
+      <module name="csc-task-rpc-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

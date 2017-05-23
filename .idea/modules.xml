@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/csc-final.iml" filepath="$PROJECT_DIR$/csc-final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csc-task/csc-task.iml" filepath="$PROJECT_DIR$/csc-task/csc-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csc-task/csc-task-api/csc-task-api.iml" filepath="$PROJECT_DIR$/csc-task/csc-task-api/csc-task-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csc-task/csc-task-common/csc-task-common.iml" filepath="$PROJECT_DIR$/csc-task/csc-task-common/csc-task-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csc-task/csc-task-dao/csc-task-dao.iml" filepath="$PROJECT_DIR$/csc-task/csc-task-dao/csc-task-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csc-task/csc-task-model/csc-task-model.iml" filepath="$PROJECT_DIR$/csc-task/csc-task-model/csc-task-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/csc-task-rpc-service.iml" filepath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/csc-task-rpc-service.iml" />
+    </modules>
+  </component>
+</project>

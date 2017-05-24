@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 4.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper>
+<mapper namespace="pres.haimi.csc.task.dao.task.CollectTaskDao">
+    <resultMap id="collectTask" type="pres.haimi.csc.task.model.task.CollectTask">
+        <id column="id" property="id"></id>
+        <result column="task_id" property="taskId"></result>
+        <result column="user_id" property="userId"></result>
+        <result column="collect_date" property="collectDate"></result>
+    </resultMap>
 
+    <insert id="add" parameterType="pres.haimi.csc.task.model.task.CollegeTask">
+        INSERT INTO collect_task(task_id,user_id,collect_date)VALUES (#{taskId},#{userId},#{collectDate})
+    </insert>
+
+    <select id="select" resultMap="collectTask">
+        SELECT * FROM collect_task WHERE id=#{id}
+    </select>
+
+    <select id="selectAll" resultMap="collectTask">
+        SELECT * FROM collect_task
+    </select>
+
+    <update id="update" parameterType="pres.haimi.csc.task.model.task.CollegeTask">
+        UPDATE collect_task SET task_id=#{taskId},user_id=#{userId},collect_date=#{collectDate} WHERE id=#{id}
+    </update>
+
+    <delete id="delete">
+        DELETE FROM collect_task WHERE id=#{id}
+    </delete>
 </mapper>

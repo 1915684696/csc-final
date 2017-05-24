@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 4.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
 <mapper namespace="pres.haimi.csc.task.dao.user.UserDao">
     <resultMap id="user" type="pres.haimi.csc.task.model.user.User">
         <id column="u_id" property="id"></id>
@@ -13,36 +12,34 @@
         <result column="u_accept_times" property="acceptTimes"></result>
         <result column="u_finish_times" property="finishTimes"></result>
         <result column="u_integrate" property="integrate"></result>
-        <result column="u_avator" property="avator"></result>
+        <result column="u_avatar" property="avatar"></result>
         <result column="u_mail" property="mail"></result>
-        <collection property="task_users" resultMap=""></collection>
-        <collection property="goods_users" resultMap=""></collection>
     </resultMap>
 
     <insert id="add" parameterType="pres.haimi.csc.task.model.user.User">
-        INSERT INTO users VALUES(#{id},#{userName},#{password},#{gender},#{telephone},#{publishTimes},#{acceptTimes},
-        #{finishTimes},#{integrate},#{avator},#{mail},#{task_users},#{goods_users})
+        INSERT INTO user_info(u_username,u_password,u_gender,u_telephone,u_publish_times,u_accept_times,u_finish_times,u_integrate,
+        u_avatar,u_mail)VALUES(#{userName},#{password},#{gender},#{telephone},#{publishTimes},#{acceptTimes},#{finishTimes},#{integrate},#{avatar},#{mail})
     </insert>
 
     <select id="select" resultMap="user">
-        SELECT * FROM users WHERE u_id=#{id}
+        SELECT * FROM user_info WHERE u_id=#{id}
     </select>
 
     <select id="selectAll" resultMap="user">
-        SELECT * FROM users
+        SELECT * FROM user_info
     </select>
 
     <select id="selectByName" resultMap="user">
-        SELECT * FROM users WHERE u_name=#{name}
+        SELECT * FROM user_info WHERE u_username=#{name}
     </select>
 
     <update id="update" parameterType="pres.haimi.csc.task.model.user.User">
-        UPDATE users SET u_id=#{id},u_username=#{username},u_password=#{passowrd},u_gender=#{gender},u_telephone=#{telephone},
+        UPDATE user_info SET u_username=#{username},u_password=#{passowrd},u_gender=#{gender},u_telephone=#{telephone},
         u_publish_times=#{publishTimes},u_accept_times=#{acceptTimes},u_finish_times=#{finishTimes},u_integrate=#{integrate},
-        u_avator=#{avator},u_mail=#{mail}
+        u_avatar=#{avatar},u_mail=#{mail} WHERE u_id=#{id}
     </update>
 
     <delete id="delete">
-        DELETE FROM users WHERE u_id=#{id}
+        DELETE FROM user_info WHERE u_id=#{id}
     </delete>
 </mapper>

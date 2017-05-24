@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 4.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper>
+<mapper namespace="pres.haimi.csc.task.dao.task.CollegeTaskDao">
+    <resultMap id="collegeTask" type="pres.haimi.csc.task.model.task.CollegeTask">
+        <id column="t_id" property="id"></id>
+        <result column="t_publish_date" property="publishDate"></result>
+        <result column="t_end_time" property="endTime"></result>
+        <result column="t_description" property="description"></result>
+        <result column="t_pay" property="pay"></result>
+        <result column="t_state" property="state"></result>
+        <result column="t_collect_times" property="collectTimes"></result>
+        <result column="t_pic" property="pic"></result>
+        <result column="p_id" property="publishUserId"></result>
+        <result column="a_id" property="acceptUserId"></result>
+        <result column="title" property="title"></result>
+    </resultMap>
 
+    <insert id="add" parameterType="pres.haimi.csc.task.model.task.CollegeTask">
+        INSERT INTO college_task VALUES(#{id},#{publishDate},#{endTime},#{description},#{pay},#{state},#{collectTimes},#{pic},#{publishUserId},#{acceptUserId},#{title})
+    </insert>
+
+    <select id="select" resultMap="collegeTask">
+        SELECT * FROM college_task WHERE t_id=#{id}
+    </select>
+
+    <select id="selectAll" resultMap="collegeTask">
+       SELECT * FROM college_task
+    </select>
+
+    <select id="selectByName" resultMap="collegeTask">
+        SELECT * FROM college_task WHERE  title = #{title}
+    </select>
+
+    <select id="selectByPublishUserId" resultMap="collegeTask">
+        SELECT * FROM college_task WHERE p_id=#{publishUserId}
+    </select>
+
+    <select id="selectByAcceptUserId" resultMap="collegeTask">
+        SELECT * FROM college_task WHERE a_id=#{acceptUserId}
+    </select>
+
+    <update id="update" parameterType="pres.haimi.csc.task.model.task.CollegeTask">
+        UPDATE college_task SET t_publish_date=#{publishDate},t_end_time=#{endTime},t_description=#{description},t_pay=#{pay},
+        t_state=#{state},t_collect_times=#{collectTimes},t_pic=#{pic},p_id=#{publishUserId},a_id=#{acceptUserId},title=#{title} WHERE t_id=#{id}
+    </update>
+
+    <delete id="delete">
+        DELETE FROM college_task WHERE t_id=#{id}
+    </delete>
 </mapper>

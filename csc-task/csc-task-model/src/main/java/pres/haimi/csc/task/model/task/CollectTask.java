@@ -2,7 +2,7 @@ package pres.haimi.csc.task.model.task;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import pres.haimi.csc.task.model.user.User;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
@@ -11,9 +11,10 @@ import java.util.Date;
  */
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class CollectTask {
     private Integer id;
-    private CollegeTask collect_task;
-    private User collect_task_user;
+    private String taskId;
+    private String userId;
     private Date collectDate;
 }

@@ -4,7 +4,7 @@
 <mapper namespace="pres.haimi.csc.task.dao.DemoDao">
 
     <!-- 根据聊天记录对象插入表 -->
-    <insert id="add" parameterType="pres.haimi.csc.task.model.Demo">
+    <insert id="add" parameterType="Demo">
         insert into demo (name)
         values(#{name})
     </insert>

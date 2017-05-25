@@ -14,7 +14,7 @@
     </insert>
 
     <select id="select" resultMap="collectTask">
-        SELECT * FROM collect_task WHERE id=#{id}
+        SELECT * FROM collect_task WHERE user_id=#{id}
     </select>
 
     <select id="selectAll" resultMap="collectTask">

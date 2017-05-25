@@ -40,6 +40,10 @@
         SELECT * FROM college_task WHERE a_id=#{acceptUserId}
     </select>
 
+    <select id="selectByState" resultMap="collegeTask">
+        SELECT * FROM college_task WHERE t_state=#{state}
+    </select>
+
     <update id="update" parameterType="pres.haimi.csc.task.model.task.CollegeTask">
         UPDATE college_task SET t_publish_date=#{publishDate},t_end_time=#{endTime},t_description=#{description},t_pay=#{pay},
         t_state=#{state},t_collect_times=#{collectTimes},t_pic=#{pic},p_id=#{publishUserId},a_id=#{acceptUserId},title=#{title} WHERE t_id=#{id}

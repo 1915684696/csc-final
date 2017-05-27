@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Date;
 /**
  * Created by HaimiZhou on 2017/5/20.
@@ -12,7 +13,7 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CollegeTask {
+public class CollegeTask implements Serializable{
     private Integer id;//编号
     private Date publishDate;//发布时间
     private Date endTime;//结束时间

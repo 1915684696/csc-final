@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
+
 /**
  * Created by HaimiZhou on 2017/5/20.
  */
@@ -11,7 +13,7 @@ import lombok.NoArgsConstructor;
 //@RequiredArgsConstructor使用类中所有带有@NonNull注解的或者带有final修饰的成员变量生成对应的构造方法，它可以使用@Data(staticConstructor=”methodName”)来生成一个静态方法，返回一个调用相应的构造方法产生的对象
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class User implements Serializable{
     private Integer id;			//编号
     private String userName;	//用户名
     private String password;	//密码

@@ -6,5 +6,5 @@ import pres.haimi.csc.task.model.user.User;
 /**
  * Created by HaimiZhou on 2017/5/23.
  */
-public interface UserDao extends BaseDao<User,Integer>{
+public interface UserDao extends BaseDao<User,String>{
 }

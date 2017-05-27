@@ -20,7 +20,7 @@ public class CollegeTask implements Serializable{
     private String title;//标题
     private String description;//任务描述
     private Double pay;//酬谢金额
-    private Integer state;//任务状态  0:未接收 1：进行时 2：已完成 3：未完成
+    private Integer state;//任务状态  0:未接收 1：进行时 2：已完成 3：未完成  -1:无效
     private String publishUserId;//发布者
     private	String acceptUserId;//接受者
     private Integer collectTimes;//收藏次数

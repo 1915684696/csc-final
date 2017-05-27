@@ -37,12 +37,9 @@ public class MethodCacheInterceptor implements MethodInterceptor{
             if (value != null) {
                 final String tkey = key;
                 final Object tvalue = value;
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
+                new Thread(()->{
                         redisUtil.set(tkey, tvalue, Long.parseLong(defaultCacheExpireTime));
-                    }
-                }).start();
+                    }).start();
             }
         } catch (Exception e) {
             e.printStackTrace();

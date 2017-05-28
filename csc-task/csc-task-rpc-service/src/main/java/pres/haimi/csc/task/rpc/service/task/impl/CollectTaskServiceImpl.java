@@ -14,6 +14,7 @@ import java.util.Objects;
 public class CollectTaskServiceImpl implements CollectTaskService{
     @Autowired
     private CollectTaskDao collectTaskDao;
+    //我收藏的任务
     @Override
     public List<CollectTask> getCollectedBySelf(String UserId) {
         if (Objects.equals(UserId,null)){

@@ -16,5 +16,5 @@ public interface CollegeTaskService {
     List<CollegeTask> findTasksByState(Integer state);
     String publishTask(CollegeTask collegeTask);
     String changetTaskState(Integer taskId,Integer state);
-    
+
 }

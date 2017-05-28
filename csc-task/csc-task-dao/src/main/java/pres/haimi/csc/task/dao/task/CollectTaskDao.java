@@ -9,5 +9,6 @@ import java.util.List;
  * Created by HaimiZhou on 2017/5/20.
  */
 public interface CollectTaskDao extends BaseDao<CollectTask,Integer>{
-    List<CollectTask> selectCollectedBySelf(String UserId);
+    List<CollectTask> selectCollectedBySelf(String userId);
+    CollectTask selectCollectTask(String userId,String taskId);
 }

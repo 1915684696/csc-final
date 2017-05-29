@@ -7,4 +7,5 @@ import pres.haimi.csc.task.model.user.PlainUser;
  */
 public interface PlainUserService {
     String register(PlainUser user);
+    PlainUser getPlainUser(String plainUserId);
 }

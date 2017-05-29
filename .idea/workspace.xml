@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93244db2-4dca-4d98-8b7b-531d58035268" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/AdminService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/AdminServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/resources/csc.config.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-task-dao/target/classes/mapper/user/userMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-task-dao/target/classes/pres/haimi/csc/task/dao/user/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-task-model/target/classes/pres/haimi/csc/task/model/user/User.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-model-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-rpc-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-rpc-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-dao/target/classes/pres/haimi/csc/task/dao/task/CollectTaskDao.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-dao/target/classes/pres/haimi/csc/task/dao/task/CollectTaskDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/task/CollegeTaskService.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/task/CollegeTaskService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-common/src/main/java/pres/haimi/csc/task/common/utils/StringUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/classes/configs/spring-servlet.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/classes/configs/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/classes/configs/spring-servlet.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/classes/configs/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-dao/target/classes/mapper/task/collectTaskMapper.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-dao/target/classes/mapper/task/collectTaskMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthResult.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthResult.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthService.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/UserService.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/PlainUserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/PlainUserService.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/PlainUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,23 +43,11 @@
       <file leaf-file-name="AuthService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="112" column="8" lean-forward="true" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -110,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/userMapper.xml" />
-        <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/task/collegeTaskMapper.xml" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/apiwrapper/PageParameter.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/pom.xml" />
@@ -152,15 +121,17 @@
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/Admin.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/plainUserMapper.xml" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/adminMapper.xml" />
-        <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/AdminServiceimpl.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthResult.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/resources/csc.config.properties" />
-        <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthService.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-common/src/main/java/pres/haimi/csc/task/common/utils/StringUtil.java" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/PlainUserService.java" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthService.java" />
       </list>
     </option>
   </component>
@@ -190,9 +161,9 @@
     <handled-path value="$PROJECT_DIR$/csc-task/csc-front/client/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="677" />
+    <option name="y" value="14" />
+    <option name="width" value="1597" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -250,7 +221,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-rpc-service" />
+              <option name="myItemId" value="csc-task-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,111 +239,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-rpc-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-rpc-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-api" />
+              <option name="myItemId" value="csc-task-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -398,71 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-api" />
+              <option name="myItemId" value="csc-task-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -478,7 +281,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,7 +343,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="editor.config.accepted" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue2-happyfri" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ECollege-master (1)/ECollege-master" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1065,7 +906,7 @@
       <workItem from="1495848390059" duration="10651000" />
       <workItem from="1495875246852" duration="13552000" />
       <workItem from="1495948458030" duration="5631000" />
-      <workItem from="1496020540989" duration="18671000" />
+      <workItem from="1496020540989" duration="23725000" />
     </task>
     <servers />
   </component>
@@ -1102,7 +943,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114781000" />
+    <option name="totallyTimeSpent" value="119835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1114,7 +955,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="677" y="14" width="1597" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1140,7 +981,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.83748645" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33694476" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43878657" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21801706" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28692257" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21801706" sideWeight="0.50653595" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1169,13 +1010,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1408,14 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1730">
-          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/IUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1497,7 +1323,7 @@
         <state relative-caret-position="528">
           <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1532,44 +1358,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/PlainUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1616,20 +1408,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
+        <state relative-caret-position="668">
           <caret line="112" column="8" lean-forward="true" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-common/src/main/java/pres/haimi/csc/task/common/utils/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/PlainUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1074">
+          <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
           </folding>
         </state>
       </provider>

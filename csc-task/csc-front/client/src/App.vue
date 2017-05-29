@@ -1,54 +1,85 @@
 <template>
-  <div id="app">
-    <el-form ref="form" :model="form" label-width="80px">
-      <el-form-item label="用户名">
-        <el-input v-model="form.userName"></el-input>
-      </el-form-item>
-      <el-form-item label="密码">
-        <el-input v-model="form.password"></el-input>
-      </el-form-item>
-      <el-form-item>
-        <el-button type="primary" @click="loginIn">登陆</el-button>
-      </el-form-item>
-    </el-form>
+  <div id="app-main">
+    <x-menu></x-menu>
+    <div class="app-wrapper">
+      <x-header></x-header>
+      <div class="app-container" :class="{active: true}">
+        <!-- <router-loading></router-loading> -->
+        <router-view></router-view>
+      </div>
+      <n-progress parent=".app-wrapper"></n-progress>
+    </div>
   </div>
 </template>
-
 <script>
-  import ajaxUtils from './http/ajaxUtils'
+import Vue from 'vue'
+import XHeader from './components/Header'
+import XMenu from './components/Menu'
+// import RouterLoading from './components/RouterLoading'
+import NProgress from './components/NProgress'
+import ContentModule from './components/ContentModule'
+Vue.component('ContentModule', ContentModule)
 export default {
-  name: 'app',
-  data() {
-    return {
-      form: {
-        userName: '',
-        password: ''
-      }
-    }
-  },
-  methods: {
-    loginIn() {
-      let params={userName:this.form.userName,password:this.form.password}
-      ajaxUtils.post("/api/login",params,(result)=>{
-          if (result!=-1 && result.code==200){
-              console.log(result)
 
-          }else{
-              console.log("身份认证失败")
-          }
-      })
-    }
+  components: {
+    XHeader,
+    XMenu,
+    NProgress
   }
 }
 </script>
+<style lang="stylus">
+@import "assets/css/variable"
+@import "assets/css/animate"
+@import "assets/fonts/iconfont.css"
+@import "assets/css/flex"
+::-webkit-scrollbar
+  width 4px
+  height 4px
+  background-color $color-gray
+::-webkit-scrollbar-button
+::-webkit-scrollbar-track
+  display none
+::-webkit-scrollbar-thumb
+  background-color $color-silver-light
+::-webkit-scrollbar-thumb:hover
+  background-color $color-black-exact-light
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+html
+  font-size 16px
+  font-family "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
+body
+  margin 0
+  padding 0
+  font-size .75rem
+  background-color #f0f0f0
+/**
+*::before
+*::after
+  box-sizing border-box*/
+a
+  text-decoration none
+#app-main
+  display flex
+  width 100%
+  height 100vh
+  .app-wrapper
+    flex 1
+    display flex
+    flex-flow column
+    overflow-x hidden
+    .app-container
+      position relative
+      flex 1
+      display flex
+      justify-content center
+      margin 0
+      padding 1rem
+      background-color #fff
+      overflow auto
+      &.active
+        margin 1rem
+
+.el-dropdown-link
+  cursor pointer
 </style>

@@ -6,7 +6,7 @@ import pres.haimi.csc.task.common.CommonResult;
 import pres.haimi.csc.task.dao.task.CollegeTaskDao;
 import pres.haimi.csc.task.dao.user.UserDao;
 import pres.haimi.csc.task.model.task.CollegeTask;
-import pres.haimi.csc.task.model.user.User;
+import pres.haimi.csc.task.model.user.PlainUser;
 import pres.haimi.csc.task.rpc.service.task.CollegeTaskService;
 
 import java.util.*;
@@ -32,9 +32,9 @@ public class CollegeTaskServiceImpl implements CollegeTaskService{
         Map<String, List<CollegeTask>> taskMap=new HashMap<>();
         taskList.stream().forEach(task->{
             String key=task.getPublishUserId();
-            User user=userDao.select(key);
-            if(Objects.equals(user,null)&&Objects.equals(user.getUserName(),null)){
-                taskMap.put(user.getUserName(),taskList);
+            PlainUser user=userDao.select(key);
+            if(Objects.equals(user,null)&&Objects.equals(user.getName(),null)){
+                taskMap.put(user.getName(),taskList);
             }
         });
         return taskMap;

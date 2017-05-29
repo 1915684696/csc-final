@@ -1,21 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Hello from '@/components/Hello'
 
 Vue.use(Router)
 
-//路由对象数组
-const routes = [{
-  path: '/',
-  component: (resolve) => {
-    require(['../view/index.vue'], resolve)
-  },
-  meta: {
-    skipAuth: true
-  }
-}]
-
-const router=new Router({
-  routes
+export default new Router({
+  routes: [
+    {
+      path: '/',
+      name: 'Hello',
+      component: Hello
+    }
+  ]
 })
-
-export default router

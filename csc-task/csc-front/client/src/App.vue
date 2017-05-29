@@ -1,135 +1,54 @@
 <template>
   <div id="app">
-    <div class="app-wrapper">
-      <e-header></e-header>
-      <div class="app-container" :class="{active: false}">
-        <router-view></router-view>
-      </div>
-      <e-footer></e-footer>
-      <n-progress parent=".app-wrapper"></n-progress>
-    </div>
-
-    <el-dialog :close-on-click-modal="false" :show-close="false" title="提示" v-model="login" size="tiny">
-      <el-form :model="form">
-        <el-form-item label="用户名">
-          <el-input v-model="form.userName" auto-complete="off"></el-input>
-        </el-form-item>
-        <el-form-item label="密码">
-          <el-input v-model="form.password" type="password" auto-complete="off"></el-input>
-        </el-form-item>
-      </el-form>
-      <div slot="footer">
-        <el-button type="info">返回</el-button>
-        <el-button @click="loginIn" type="success">登陆</el-button>
-      </div>
-    </el-dialog>
-
-
+    <el-form ref="form" :model="form" label-width="80px">
+      <el-form-item label="用户名">
+        <el-input v-model="form.userName"></el-input>
+      </el-form-item>
+      <el-form-item label="密码">
+        <el-input v-model="form.password"></el-input>
+      </el-form-item>
+      <el-form-item>
+        <el-button type="primary" @click="loginIn">登陆</el-button>
+      </el-form-item>
+    </el-form>
   </div>
 </template>
 
 <script>
-  import Vue from 'vue'
-  import EHeader from './components/Header.vue'
-  import ContentModule from './components/ContentModule'
-  import EFooter from './components/Footer'
-  import NProgress from './components/NProgress'
-  import store from './store/index.js'
   import ajaxUtils from './http/ajaxUtils'
-  import {setSessionUser} from './storage/index'
-  Vue.component('EHeader',EHeader)
-  Vue.component('ContentModule', ContentModule)
-  Vue.component('EFooter',EFooter)
-  export default {
-    name: 'app',
-    data() {
-      return {
-        form: {
-          userName:'',
-          password:''
-        }
+export default {
+  name: 'app',
+  data() {
+    return {
+      form: {
+        userName: '',
+        password: ''
       }
-    },
-    computed: {
-      login: ()=> {
-        return store.getters.showLogin
-      }
-    },
-    methods:{
-      loginIn() {
-        let params = {userName:this.form.userName,password:this.form.password}
-        ajaxUtils.post("/api/login",params,(result)=>{
-          if (result!=-1 && result.code==200) {
-            console.log(result)
-            setSessionUser(result.result.user)
-            store.commit("SHOW_LOGIN",false)
-          } else{
-            console.log("身份认证失败")
+    }
+  },
+  methods: {
+    loginIn() {
+      let params={userName:this.form.userName,password:this.form.password}
+      ajaxUtils.post("/api/login",params,(result)=>{
+          if (result!=-1 && result.code==200){
+              console.log(result)
+
+          }else{
+              console.log("身份认证失败")
           }
-        })
-      }
-    },
-    components: {
-      NProgress
+      })
     }
   }
+}
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
-  @import "assets/css/variable.styl";
-  @import "assets/css/animate.styl";
-  @import "assets/fonts/iconfont.css";
-  @import "assets/css/flex.styl";
-  @import "//at.alicdn.com/t/font_z9f2f7ifbadu0udi.css";
-
-  ::-webkit-scrollbar
-    width 4px
-    height 4px
-    background-color $color-gray
-  ::-webkit-scrollbar-button
-  ::-webkit-scrollbar-track
-    display none
-  ::-webkit-scrollbar-thumb
-    background-color $color-silver-light
-  ::-webkit-scrollbar-thumb:hover
-    background-color $color-black-exact-light
-  html
-    font-size 16px
-    font-family "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
-  body
-    margin 0
-    padding 0
-    font-size .75rem
-    background-color #f0f0f0
-   /**
-   *::before
-   *::after
-     box-sizing border-box*/
-  a
-   text-decoration none
-  #app-main
-   display flex
-   width 100%
-   height 100%
-  .app-wrapper
-   flex 1
-   display flex
-   flex-flow column
-   overflow-x hidden
-   min-width 1000px;
-  .app-container
-   position relative
-   flex 1
-   min-height 600px
-   display flex
-   justify-content center
-   margin 0
-   padding 0rem
-   background-color #fff
-   overflow auto
-  &.active
-   margin 1rem
- .el-dropdown-link
-   cursor pointer
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>
-

@@ -1,7 +1,7 @@
 package pres.haimi.csc.task.rpc.service;
 
 
-import pres.haimi.csc.task.model.user.PlainUser;
+import pres.haimi.csc.task.model.User;
 
 /**
  * Created by xufeng on 2017/4/15.
@@ -11,7 +11,7 @@ public class AuthResult {
 
     private boolean login = false;
     private String message = null;
-    private PlainUser user = null;
+    private User user = null;
     private String redirect;
 
 
@@ -40,11 +40,11 @@ public class AuthResult {
         this.message = message;
     }
 
-    public PlainUser getUser() {
+    public User getUser() {
         return user;
     }
 
-    public void setUser(PlainUser user) {
+    public void setUser(User user) {
         this.user = user;
     }
 

@@ -62,4 +62,11 @@
     <!--(事务管理)transaction manager, use JtaTransactionManager for global tx -->
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
+    <bean id="prop" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+        <property name="locations">
+            <array>
+                <value>classpath:csc.config.properties</value>
+            </array>
+        </property>
+    </bean>
 </beans>  

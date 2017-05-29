@@ -14,7 +14,7 @@ public class Test {
     private CollegeTaskService collegeTaskService;
     public void init(){
         System.out.println("Spring 初始化！");
-       /* collegeTaskService.selectAll();*/
+        /*collegeTaskService.selectAll();*/
       /*  System.out.println(collegeTaskDao.select(1));*/
         /*demoDao.add(new Demo(2,"hello"));*/
         System.out.println("Mybatis success!");

@@ -4,21 +4,21 @@ import org.springframework.beans.factory.annotation.Autowired;
 import pres.haimi.csc.task.common.CommonResult;
 import pres.haimi.csc.task.dao.user.PlainUserDao;
 import pres.haimi.csc.task.model.user.PlainUser;
-import pres.haimi.csc.task.rpc.service.user.UserService;
+import pres.haimi.csc.task.rpc.service.user.PlainUserService;
 
 import java.util.List;
 
 /**
  * Created by HaimiZhou on 2017/5/27.
  */
-public class UserServiceImpl implements UserService{
+public class PlainUserServiceImpl implements PlainUserService {
     @Autowired
     private PlainUserDao userDao;
     //注册
     @Override
     public String register(PlainUser user) {
-        if (user!=null||user.getUserName()!=null){
-            List<PlainUser> userList=userDao.selectByName(user.getUserName());
+        if (user!=null||user.getName()!=null){
+            List<PlainUser> userList=userDao.selectByName(user.getName());
             if (userList!=null||userList.size()!=0){
                 return CommonResult.EXIST_USER;
             }else {

@@ -21,6 +21,13 @@
         SELECT * FROM collect_task
     </select>
 
+    <select id="selectCollectedBySelf" resultMap="collectTask">
+        SELECT * FROM collect_task WHERE user_id=#{userId}
+    </select>
+
+    <select id="selectCollectTask" resultMap="collectTask">
+         SELECT * FROM collect_task WHERE user_id=#{userId} AND task_id=#{taskId}
+    </select>
     <update id="update" parameterType="pres.haimi.csc.task.model.task.CollegeTask">
         UPDATE collect_task SET task_id=#{taskId},user_id=#{userId},collect_date=#{collectDate} WHERE id=#{id}
     </update>

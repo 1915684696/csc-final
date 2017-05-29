@@ -2,7 +2,7 @@ package pres.haimi.csc.task.rpc.service.user.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import pres.haimi.csc.task.common.CommonResult;
-import pres.haimi.csc.task.dao.user.UserDao;
+import pres.haimi.csc.task.dao.user.PlainUserDao;
 import pres.haimi.csc.task.model.user.PlainUser;
 import pres.haimi.csc.task.rpc.service.user.UserService;
 
@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class UserServiceImpl implements UserService{
     @Autowired
-    private UserDao userDao;
+    private PlainUserDao userDao;
     //注册
     @Override
     public String register(PlainUser user) {

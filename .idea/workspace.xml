@@ -2,60 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93244db2-4dca-4d98-8b7b-531d58035268" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Hello.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/controller/AuthController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/controller/BaseController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/Admin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/css/animate.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/css/flex.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/css/variable.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/demo_fontclass.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/common/commonUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/common/utils/UserUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/common/utils/routeUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/common/utils/timeUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/ContentModule.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Footer.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.nav.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/NProgress.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/carousel.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/constants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/socket/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/storage/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/global-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/index.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/static/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/static/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/static/cutter.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/AdminDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/adminMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/config/index.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/index.html" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/package.json" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/main.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/index.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-common/src/main/java/pres/haimi/csc/task/common/CommonResult.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-common/src/main/java/pres/haimi/csc/task/common/CommonResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/UserDao.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/userMapper.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/userMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/Admin.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/Admin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/UserService.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/UserService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/UserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/User.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/PlainUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/UserDao.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/PlainUserDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/userMapper.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/plainUserMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -116,9 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/csc-task/csc-front/client/index.html" />
-        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/storage/index.js" />
-        <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/demoMapper.xml" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/Demo.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/controller/DemoController.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/goods/SecondGoods.java" />
@@ -165,8 +116,11 @@
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/User.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/IUser.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/User.java" />
-        <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/Admin.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/PlainUser.java" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/AdminDao.java" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/Admin.java" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/plainUserMapper.xml" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/adminMapper.xml" />
       </list>
     </option>
   </component>
@@ -196,8 +150,9 @@
     <handled-path value="$PROJECT_DIR$/csc-task/csc-front/client/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="width" value="1622" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -255,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-model" />
+              <option name="myItemId" value="csc-task-dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,7 +228,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="csc-task-model" />
+              <option name="myItemId" value="csc-task-dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -285,11 +240,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -876,7 +857,7 @@
       <workItem from="1495848390059" duration="10651000" />
       <workItem from="1495875246852" duration="13552000" />
       <workItem from="1495948458030" duration="5631000" />
-      <workItem from="1496020540989" duration="10848000" />
+      <workItem from="1496020540989" duration="14533000" />
     </task>
     <servers />
   </component>
@@ -913,7 +894,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106958000" />
+    <option name="totallyTimeSpent" value="110643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -925,7 +906,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="0" width="1622" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -949,8 +930,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30444205" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26977247" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26824585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21018419" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22334754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -962,41 +943,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31223175" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31385282" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0043336945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26406926" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20788912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1015,28 +961,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/apiwrapper/PageParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/apiwrapper/Pagination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1172,13 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -1229,14 +1146,6 @@
             <marker date="1495954496031" expanded="true" signature="1367:1469" ph="UPDATE colle... " />
             <marker date="1495954496031" expanded="true" signature="1518:1557" ph="DELETE FROM " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,14 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/CollectTaskService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1404,26 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/PlainUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1445,6 +1326,90 @@
         <state relative-caret-position="270">
           <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/PlainUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/PlainUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/adminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding>
+            <marker date="1496046317538" expanded="true" signature="989:1206" ph="INSERT INTO admin_info... " />
+            <marker date="1496046317538" expanded="true" signature="1272:1313" ph="SELECT * FRO... admin_info" />
+            <marker date="1496046317538" expanded="true" signature="1382:1406" ph="SELECT * FRO... admin_info" />
+            <marker date="1496046317538" expanded="true" signature="1478:1523" ph="SELECT * FRO... admin_info" />
+            <marker date="1496046317538" expanded="true" signature="1629:1852" ph="UPDATE admin... " />
+            <marker date="1496046317538" expanded="true" signature="1901:1940" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/plainUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <marker date="1496046317462" expanded="true" signature="1108:1392" ph="INSERT INTO user_info... " />
+            <marker date="1496046317462" expanded="true" signature="1458:1498" ph="SELECT * FRO... user_info" />
+            <marker date="1496046317462" expanded="true" signature="1567:1590" ph="SELECT * FRO... user_info" />
+            <marker date="1496046317462" expanded="true" signature="1662:1706" ph="SELECT * FRO... user_info" />
+            <marker date="1496046317462" expanded="true" signature="1812:2102" ph="UPDATE user_... " />
+            <marker date="1496046317462" expanded="true" signature="2151:2189" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>

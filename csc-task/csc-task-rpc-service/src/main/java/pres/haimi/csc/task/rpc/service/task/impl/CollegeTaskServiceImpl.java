@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pres.haimi.csc.task.common.CommonResult;
 import pres.haimi.csc.task.dao.task.CollegeTaskDao;
-import pres.haimi.csc.task.dao.user.UserDao;
+import pres.haimi.csc.task.dao.user.PlainUserDao;
 import pres.haimi.csc.task.model.task.CollegeTask;
 import pres.haimi.csc.task.model.user.PlainUser;
 import pres.haimi.csc.task.rpc.service.task.CollegeTaskService;
@@ -20,7 +20,7 @@ public class CollegeTaskServiceImpl implements CollegeTaskService{
     @Autowired
     private CollegeTaskDao collegeTaskDao;
     @Autowired
-    private UserDao userDao;
+    private PlainUserDao userDao;
 
     //按发布者分类
     @Override

@@ -24,7 +24,7 @@ public class Admin implements Serializable,User{
     private String phone;
     private Date birthday;
     private String mail;  //邮箱
-    private int limit;
+    private Integer limit;
 
     public String[] getAvatars1() {
         if (avatars==null) {

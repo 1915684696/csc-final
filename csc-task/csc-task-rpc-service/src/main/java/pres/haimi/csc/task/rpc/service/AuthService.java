@@ -33,6 +33,7 @@ public class AuthService {
             result.setMessage("用户名或密码不能为空");
             return result;
         }
+        //正则匹配
         if(!StringUtil.checkPassword(password)){
             result.setMessage("用户名或密码不正确");
             return result;

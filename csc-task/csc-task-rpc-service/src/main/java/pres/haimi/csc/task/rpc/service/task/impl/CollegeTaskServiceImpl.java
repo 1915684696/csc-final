@@ -91,13 +91,13 @@ public class CollegeTaskServiceImpl implements CollegeTaskService{
 
     //改变任务状态
     @Override
-    public String changeTaskState(Integer taskId,Integer state) {
+    public  String changeTaskState(Integer taskId,Integer state) {
         if (taskId!=null){
             CollegeTask collegeTask=collegeTaskDao.select(taskId);
             if (collegeTask==null){
                 return CommonResult.QUERY_ERROR;
             }
-            if(state!=-1){
+            if(state!=-1 && state!=1){
                 collegeTask.setState(state);
             }
             int num=collegeTaskDao.update(collegeTask);

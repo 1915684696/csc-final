@@ -2,76 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93244db2-4dca-4d98-8b7b-531d58035268" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/images/login-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/demo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/.eslintrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/css/animate.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/css/flex.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/css/variable.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/demo_fontclass.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/fonts/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/ContentModule.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/DataTable.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Menu.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/NProgress.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Pagination.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/RouterLoading.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/resources.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/socket/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/storage/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/global-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/CommonView.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/Dashboard.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/ThingList.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/UserList.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/auth/Login.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/nginx.example.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/package.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/.postcssrc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/build/check-versions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/build/vue-loader.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/config/dev.env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/config/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/config/prod.env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Hello.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/http/ajaxUtils.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-rpc-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-rpc-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/AuthService.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/AuthService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/task/CollegeTaskService.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/task/CollegeTaskService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/user/PlainUserService.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/user/PlainUserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/README.md" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/build/build.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/build/build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/build/dev-client.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/build/dev-client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/build/dev-server.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/build/dev-server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/build/utils.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/build/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/build/webpack.base.conf.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/build/webpack.base.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/build/webpack.dev.conf.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/build/webpack.dev.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/build/webpack.prod.conf.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/build/webpack.prod.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/index.html" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/main.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/index.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/.editorconfig" afterPath="$PROJECT_DIR$/csc-task/csc-front/.editorconfig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/static/.gitkeep" afterPath="$PROJECT_DIR$/csc-task/csc-front/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/CollegeTaskService.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/CollegeTaskService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,7 +46,18 @@
     <favorites_list name="csc-final" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="CollegeTaskServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="101" column="13" lean-forward="true" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/csc-task/csc-task-api/pom.xml" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/CollegeTaskService.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/jdbc.properties" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/log4j.properties" />
@@ -150,7 +102,6 @@
         <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/UserDao.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/task/CollegeTask.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/task/CollegeTaskDao.java" />
-        <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/CollegeTaskService.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/CollectTaskService.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/task/CollectTaskDao.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/task/collectTaskMapper.xml" />
@@ -163,7 +114,6 @@
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-common/src/main/java/pres/haimi/csc/task/common/CommonResult.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/controller/AuthController.java" />
-        <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/user/User.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/IUser.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-model/src/main/java/pres/haimi/csc/task/model/User.java" />
@@ -178,13 +128,16 @@
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/resources/csc.config.properties" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-common/src/main/java/pres/haimi/csc/task/common/utils/StringUtil.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/PlainUserService.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/AuthService.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/store/index.js" />
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.js" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/CollegeTaskService.java" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml" />
       </list>
     </option>
   </component>
@@ -234,8 +187,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -263,6 +216,266 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-rpc-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csc-task-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -280,7 +493,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="editor.config.accepted" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ECollege-master (1)/ECollege-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -845,7 +1058,8 @@
       <workItem from="1495875246852" duration="13552000" />
       <workItem from="1495948458030" duration="5631000" />
       <workItem from="1496020540989" duration="23725000" />
-      <workItem from="1496062925879" duration="2896000" />
+      <workItem from="1496062925879" duration="3041000" />
+      <workItem from="1496285460327" duration="2294000" />
     </task>
     <servers />
   </component>
@@ -882,7 +1096,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122731000" />
+    <option name="totallyTimeSpent" value="125170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -894,7 +1108,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -911,15 +1125,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31223175" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.83748645" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35102925" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33694476" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29252437" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23827292" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29252437" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24093817" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21801706" sideWeight="0.50653595" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -927,7 +1142,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31223175" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -949,23 +1163,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/AdminDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/user/PlainUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-dao/src/main/java/pres/haimi/csc/task/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -987,9 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -997,14 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="853">
           <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-          <folding>
-            <marker date="1496046317538" expanded="true" signature="989:1206" ph="INSERT INTO admin_info... " />
-            <marker date="1496046317538" expanded="true" signature="1272:1313" ph="SELECT * FRO... admin_info" />
-            <marker date="1496046317538" expanded="true" signature="1382:1406" ph="SELECT * FRO... admin_info" />
-            <marker date="1496046317538" expanded="true" signature="1478:1523" ph="SELECT * FRO... admin_info" />
-            <marker date="1496046317538" expanded="true" signature="1629:1852" ph="UPDATE admin... " />
-            <marker date="1496046317538" expanded="true" signature="1901:1940" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,14 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <marker date="1496046317462" expanded="true" signature="1108:1392" ph="INSERT INTO user_info... " />
-            <marker date="1496046317462" expanded="true" signature="1458:1498" ph="SELECT * FRO... user_info" />
-            <marker date="1496046317462" expanded="true" signature="1567:1590" ph="SELECT * FRO... user_info" />
-            <marker date="1496046317462" expanded="true" signature="1662:1706" ph="SELECT * FRO... user_info" />
-            <marker date="1496046317462" expanded="true" signature="1812:2102" ph="UPDATE user_... " />
-            <marker date="1496046317462" expanded="true" signature="2151:2189" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,26 +1229,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="71" column="10" lean-forward="true" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="112" column="8" lean-forward="true" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1104,9 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,16 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1074">
           <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
-          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1281,7 @@
         <state relative-caret-position="264">
           <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1141,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,7 +1312,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="27">
             <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1176,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-324">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,7 +1328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,7 +1335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-486">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,7 +1342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,7 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,7 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,7 +1363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-321">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,9 +1370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1242,7 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,9 +1384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-486">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,7 +1391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,7 +1398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,9 +1405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1286,9 +1412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,7 +1419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-294">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,7 +1426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,7 +1433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="148" column="14" lean-forward="false" selection-start-line="148" selection-start-column="10" selection-end-line="148" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1320,7 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,7 +1447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1336,7 +1454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1344,7 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,7 +1468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1360,7 +1475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1368,7 +1482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1376,9 +1489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1386,6 +1496,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2052">
           <caret line="145" column="9" lean-forward="true" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/CollegeTaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="101" column="13" lean-forward="true" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -15,6 +15,6 @@ public interface CollegeTaskService {
     List<CollegeTask> acceptedBySelf(String acceptUserId);
     List<CollegeTask> findTasksByState(Integer state);
     String publishTask(CollegeTask collegeTask);
-    String changetTaskState(Integer taskId,Integer state);
+    String changeTaskState(Integer taskId,Integer state);
 
 }

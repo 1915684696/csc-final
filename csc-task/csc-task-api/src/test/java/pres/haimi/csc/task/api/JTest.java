@@ -12,7 +12,7 @@ import redis.clients.jedis.Jedis;
  * Created by HaimiZhou on 2017/5/27.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = { "classpath*:configs/spring-mybatis.xml","classpath*:configs/spring-servlet.xml"})
+@ContextConfiguration(locations = {"classpath*:/configs/applicationContext.xml","classpath*:configs/spring-mybatis.xml","classpath*:configs/spring-servlet.xml"})
 public class JTest {
 
     @Autowired

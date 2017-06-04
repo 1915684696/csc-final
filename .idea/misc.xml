@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/csc-task/csc-task-dao" />
     <file type="web" url="file://$PROJECT_DIR$/csc-task/csc-task-model" />
     <file type="web" url="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service" />
+    <type id="Spring" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />

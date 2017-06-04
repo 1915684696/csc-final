@@ -53,13 +53,13 @@
     <bean class="pres.haimi.csc.task.api.Test" init-method="init"></bean>
 
     <!--引入Redis配置文件-->
-    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    <!--<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">
             <list>
                 <value>classpath:redis.properties</value>
             </list>
         </property>
-    </bean>
+    </bean>-->
 
     <!-- jedis 连接池配置 -->
     <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">

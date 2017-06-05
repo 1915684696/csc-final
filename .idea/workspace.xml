@@ -7,36 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93244db2-4dca-4d98-8b7b-531d58035268" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/applicationContext.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/protostuff-api-1.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/protostuff-collectionschema-1.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/protostuff-core-1.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/protostuff-runtime-1.0.8.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-common-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-dao-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-model-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-rpc-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/lib/csc-task-rpc-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/test-classes/pres/haimi/csc/task/api/JTest.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/test-classes/pres/haimi/csc/task/api/JTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/AuthService.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/AuthService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.class" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/target/classes/pres/haimi/csc/task/rpc/service/task/impl/CollegeTaskServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/csc-task-api.iml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/csc-task-api.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/jdbc.properties" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/jdbc.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/src/test/java/pres/haimi/csc/task/api/JTest.java" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/src/test/java/pres/haimi/csc/task/api/JTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/classes/configs/jdbc.properties" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/classes/configs/jdbc.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/classes/configs/spring-mybatis.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/classes/configs/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/classes/configs/spring-servlet.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/classes/configs/spring-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/classes/configs/applicationContext.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/classes/configs/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/classes/configs/jdbc.properties" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/classes/configs/jdbc.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/classes/configs/spring-mybatis.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/classes/configs/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-common/csc-task-common.iml" afterPath="$PROJECT_DIR$/csc-task/csc-task-common/csc-task-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-dao/csc-task-dao.iml" afterPath="$PROJECT_DIR$/csc-task/csc-task-dao/csc-task-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-model/csc-task-model.iml" afterPath="$PROJECT_DIR$/csc-task/csc-task-model/csc-task-model.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/csc-task-rpc-service.iml" afterPath="$PROJECT_DIR$/csc-task/csc-task-rpc-service/csc-task-rpc-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/classes/configs/spring-servlet.xml" afterPath="$PROJECT_DIR$/csc-task/csc-task-api/target/csc-task-api/WEB-INF/classes/configs/spring-servlet.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,7 +53,101 @@
     <favorites_list name="csc-final" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="spring-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/TestServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlainUserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectTaskServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollectTaskServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+              <folding>
+                <element signature="e#1509#1534#0" expanded="true" />
+                <element signature="e#1581#1602#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -145,10 +224,10 @@
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/SyncAcceptTask.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/test/java/pres/haimi/csc/task/api/JTest.java" />
+        <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/applicationContext.xml" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/jdbc.properties" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml" />
-        <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -194,12 +273,9 @@
       <select />
     </treeState>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/csc-task/csc-front/node_modules" />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
-    <option name="y" value="327" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -218,8 +294,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,20 +311,78 @@
               <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc-final" type="462c0819:PsiDirectoryNode" />
               <item name="csc-task" type="462c0819:PsiDirectoryNode" />
-              <item name="csc-front" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc-final" type="462c0819:PsiDirectoryNode" />
               <item name="csc-task" type="462c0819:PsiDirectoryNode" />
-              <item name="csc-front" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc-final" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc-final" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc-final" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc-final" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc-final" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc-final" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -300,7 +433,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JTest">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration name="JTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -834,8 +967,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.JTest.testJedisSingle" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JTest.testJedisSingle" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JTest" />
         <item index="2" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -861,19 +994,11 @@
       <workItem from="1496062925879" duration="3041000" />
       <workItem from="1496285460327" duration="13123000" />
       <workItem from="1496562029490" duration="4349000" />
+      <workItem from="1496661162753" duration="1664000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JTest - 2017.06.04 at 16h 25m 15s.xml">
-      <configuration name="JTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JTest - 2017.06.04 at 16h 26m 00s.xml">
-      <configuration name="JTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JTest - 2017.06.04 at 16h 28m 22s.xml">
-      <configuration name="JTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JTest - 2017.06.04 at 16h 30m 24s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
@@ -889,15 +1014,24 @@
     <history-entry file="JTest - 2017.06.04 at 16h 53m 22s.xml">
       <configuration name="JTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JTest - 2017.06.05 at 11h 05m 38s.xml">
+      <configuration name="JTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="JTest_testJedisSingle - 2017.06.04 at 15h 48m 03s.xml">
       <configuration name="JTest.testJedisSingle" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JTest_testJedisSingle - 2017.06.04 at 15h 58m 30s.xml">
       <configuration name="JTest.testJedisSingle" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JTest_testJedisSingle - 2017.06.05 at 19h 15m 15s.xml">
+      <configuration name="JTest.testJedisSingle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JTest_testJedisSingle - 2017.06.05 at 19h 15m 52s.xml">
+      <configuration name="JTest.testJedisSingle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140348000" />
+    <option name="totallyTimeSpent" value="142743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -909,12 +1043,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24809575" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31960997" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15351813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15279879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -928,11 +1063,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37758434" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.523888" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33694476" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29162133" sideWeight="0.4978678" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20522387" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20801815" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21801706" sideWeight="0.50653595" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -945,6 +1080,41 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24809575" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31960997" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15279879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24957699" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31223175" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35914332" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33694476" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29162133" sideWeight="0.4978678" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21406959" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21801706" sideWeight="0.50653595" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1159,7 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,7 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="107" column="13" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="107" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,9 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,23 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollectTaskServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,14 +1386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/TestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1261,30 +1398,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,63 +1428,102 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="307.5" y="71.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="308.0" y="72.0" />
           <SelectedNodes />
           <Categories>
             <Category>Show filesets as groups</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/redis.properties">
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/test/java/pres/haimi/csc/task/api/JTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="e#1257#1278#0" expanded="true" />
-            <element signature="e#1321#1334#0" expanded="true" />
-            <element signature="e#1378#1396#0" expanded="true" />
-            <element signature="e#1440#1458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state relative-caret-position="250">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/test/java/pres/haimi/csc/task/api/JTest.java">
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="e#1509#1534#0" expanded="true" />
+            <element signature="e#1581#1602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/PlainUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/task/impl/CollectTaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           <folding />
         </state>
       </provider>

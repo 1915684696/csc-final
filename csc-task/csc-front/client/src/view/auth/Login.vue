@@ -1,33 +1,34 @@
 <template>
-  <div class="login-wrapper" v-show="!loggedIn">
+  <div class="login-wrapper">
     <div class="bg"></div>
-    <h1>学院信息系统</h1>
+    <h1>CSC</h1>
     <el-form ref="form" :model="form" :rules="rules"
       @submit.native.prevent="onSubmit">
       <el-form-item prop="username">
-        <el-input v-model="form.username" placeholder="请输入用户名"></el-input>
+        <el-input v-model="form.userName" placeholder="请输入用户名"></el-input>
       </el-form-item>
       <el-form-item prop="password">
         <el-input v-model="form.password" type="password" placeholder="请输入密码"></el-input>
       </el-form-item>
       <el-form-item>
         <el-button class="login-button" :class="{error: loginError}" type="success"
-          native-type="submit" :loading="loading">登录</el-button>
+           :loading="loading" @click="loginIn">登录</el-button>
       </el-form-item>
     </el-form>
   </div>
 </template>
 <script>
 import { mapGetters, mapActions } from 'vuex'
+import ajaxUtils from '../../http/ajaxUtils'
 export default {
   data () {
     return {
       form: {
-        username: '',
+        userName: '',
         password: ''
       },
       rules: {
-        username: [{
+        userName: [{
           required: true, message: '请输入用户名', trigger: 'blur'
         }],
         password: [{
@@ -43,6 +44,13 @@ export default {
     ...mapGetters(['loggedIn'])
   },
   methods: {
+    loginIn(){
+      let params = {userName:this.form.userName,password:this.form.password}
+      ajaxUtils.post("/api/login",params,(result)=>{
+        alert("登陆成功")
+        this.$router.push("/")
+      })
+    },
     ...mapActions(['login']),
     onSubmit () {
       this.$refs.form.validate(valid => {

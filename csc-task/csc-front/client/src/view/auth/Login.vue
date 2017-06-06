@@ -51,9 +51,8 @@ export default {
           alert("登陆成功")
           this.$router.push("/")
         } else{
-          alert("身份认证失败")
+          alert(result.message);
         }
-
       })
     },
     ...mapActions(['login']),

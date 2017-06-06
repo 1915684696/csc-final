@@ -11,8 +11,8 @@ public class AuthResult {
 
     private boolean login = false;
     private String message = null;
-    private User user = null;
-    private String redirect;
+ /*   private User user = null;
+    private String redirect;*/
 
 
     public AuthResult() {
@@ -40,7 +40,7 @@ public class AuthResult {
         this.message = message;
     }
 
-    public User getUser() {
+   /* public User getUser() {
         return user;
     }
 
@@ -54,5 +54,5 @@ public class AuthResult {
 
     public void setRedirect(String redirect) {
         this.redirect = redirect;
-    }
+    }*/
 }

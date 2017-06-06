@@ -40,7 +40,7 @@ public class AuthController extends BaseController{
             session.setAttribute("userId",user.getId());
             return asSuccess(user);
         }catch (Exception e){
-            return asUnLogin("登陆失败");
+            return asUnLogin(e.getMessage());
         }
 
     }

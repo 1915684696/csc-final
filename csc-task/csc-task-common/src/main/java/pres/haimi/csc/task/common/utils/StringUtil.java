@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  * Created by HaimiZhou on 2017/5/29.
  */
 public class StringUtil {
-    private static final String PASSWORD_PATTERN="[\\d+a-zA-Z_]{6,16}";
+    private static final String PASSWORD_PATTERN="^[a-zA-Z]\\w{5,17}$";
 
     public static boolean checkPassword(String password){
         if(Objects.equals(password,null)){

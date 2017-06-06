@@ -1,6 +1,8 @@
 package pres.haimi.csc.task.api.controller;
 
 
+import pres.haimi.csc.task.api.interceptor.ApiFilter;
+import pres.haimi.csc.task.common.Auth;
 import pres.haimi.csc.task.model.apiwrapper.APIListResult;
 import pres.haimi.csc.task.model.apiwrapper.APIResult;
 import pres.haimi.csc.task.model.apiwrapper.APIResultCode;
@@ -17,6 +19,14 @@ import java.util.List;
  * 基础的控制器，里面放公用方法
  */
 public class BaseController {
+
+    protected int getAuth() {
+        HttpServletRequest request= ApiFilter.requestThreadLocal.get();
+        if (request == null || request.getAttribute(Auth.AUTH) == null) {
+            return -1;
+        }
+        return (int)request.getAttribute(Auth.AUTH);
+    }
 
     protected <T> APIResult<T> asSuccess(T t) {
 		return new APIResult<>(APIResultCode.SUCCESS.getValue(), null, t);

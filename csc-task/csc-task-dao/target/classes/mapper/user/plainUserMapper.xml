@@ -22,7 +22,7 @@
     </insert>
 
     <select id="select" resultMap="user">
-        SELECT * FROM user_info WHERE u_id=#{id}
+        SELECT * FROM user_info WHERE u_name=#{id}
     </select>
 
     <select id="selectAll" resultMap="user">

@@ -110,4 +110,9 @@
         execution(* pres.haimi.csc.task.rpc.service.*.get*(..))"/>
         <aop:advisor advice-ref="methodCacheInterceptor" pointcut-ref="controllerMethodPointcut"/>
     </aop:config>
+
+    <bean id="timeBasedAccessInterceptor" class="pres.haimi.csc.task.api.interceptor.AuthorityInterceptor">
+
+    </bean>
+
 </beans>

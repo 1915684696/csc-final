@@ -5,7 +5,7 @@
     <el-form ref="form" :model="form" :rules="rules"
       @submit.native.prevent="onSubmit">
       <el-form-item prop="username">
-        <el-input v-model="form.userName" placeholder="请输入用户名"></el-input>
+        <el-input v-model="form.name" placeholder="请输入用户名"></el-input>
       </el-form-item>
       <el-form-item prop="password">
         <el-input v-model="form.password" type="password" placeholder="请输入密码"></el-input>
@@ -24,7 +24,7 @@ export default {
   data () {
     return {
       form: {
-        userName: '',
+        name: '',
         password: ''
       },
       rules: {
@@ -45,10 +45,15 @@ export default {
   },
   methods: {
     loginIn(){
-      let params = {userName:this.form.userName,password:this.form.password}
+      let params = {name:this.form.name,password:this.form.password}
       ajaxUtils.post("/api/login",params,(result)=>{
-        alert("登陆成功")
-        this.$router.push("/")
+        if (result!=-1 && result.code==200) {
+          alert("登陆成功")
+          this.$router.push("/")
+        } else{
+          alert("身份认证失败")
+        }
+
       })
     },
     ...mapActions(['login']),

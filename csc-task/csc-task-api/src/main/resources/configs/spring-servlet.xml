@@ -18,7 +18,7 @@
     <context:component-scan base-package="pres.haimi.csc.task.api.controller"></context:component-scan>
 
     <!--扫描所有service包-->
-    <context:component-scan base-package="pres.haimi.csc.task.rpc.service"/>
+   <!-- <context:component-scan base-package="pres.haimi.csc.task.rpc.service"/>-->
 
 	<!-- 添加json支持 -->
     <mvc:annotation-driven >

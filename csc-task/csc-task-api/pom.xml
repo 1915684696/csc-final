@@ -13,11 +13,6 @@
     <dependencies>
         <dependency>
             <groupId>pres.haimi</groupId>
-            <artifactId>csc-task-dao</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>pres.haimi</groupId>
             <artifactId>csc-task-rpc-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

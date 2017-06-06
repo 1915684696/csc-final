@@ -18,15 +18,11 @@ import java.util.Objects;
 public class AuthService {
 
     private int plainUserKeyNum;
-    private int adminKeyNum;
 
     @Autowired
     private PlainUserService plainUserService;
 
-    @Autowired
-    private AdminDao adminDao;
-
-    //验证普通用户或管理员的登陆
+    //验证普通用户的登陆
     public AuthResult auth(String key,String password){
         AuthResult result=new AuthResult();
         if(Objects.equals(key,null) || Objects.equals(password,null)){
@@ -40,9 +36,6 @@ public class AuthService {
         }
         if(Objects.equals(key.length(),plainUserKeyNum)){
             return checkPlainUser(key,password,result);
-        }
-        if(Objects.equals(key.length(),adminKeyNum)){
-            return checkAdmin(key,password,result);
         }
         return result;
     }
@@ -62,28 +55,10 @@ public class AuthService {
         return result;
     }
 
-    private AuthResult checkAdmin(String key,String password,AuthResult result){
-        Admin admin=adminDao.select(key);
-        if (admin==null){
-            result.setMessage("用户名不存在");
-            return result;
-        }
-        if (Objects.equals(admin.getPassword(),password)){
-            result.setLogin(true);
-            result.setMessage("登陆成功");
-            result.setUser(admin);
-        }
-        return result;
-    }
-
-
     @Value("#{prop.c_plainUser_key_num}")
     public void setPlainUserKeyNum(int plainUserKeyNum) {
         System.out.println(plainUserKeyNum+"加载配置文件参数");
         this.plainUserKeyNum = plainUserKeyNum;
     }
-    @Value("#{prop.c_admin_key_num}")
-    public void setAdminKeyNum(int adminKeyNum) {
-        this.adminKeyNum = adminKeyNum;
-    }
+
 }

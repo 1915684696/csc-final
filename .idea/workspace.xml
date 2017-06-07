@@ -7,28 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93244db2-4dca-4d98-8b7b-531d58035268" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Zhou.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/assets/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/index.vue" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/DataTable.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Menu.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Pagination.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/RouterLoading.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/CommonView.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/Dashboard.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/ThingList.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/UserList.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/auth/Login.vue" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Footer.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.nav.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/goods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/task.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.vue" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/NProgress.vue" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/components/NProgress.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/index.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/index.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/global-config.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/global-config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.js" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/index.vue" afterPath="$PROJECT_DIR$/csc-task/csc-front/client/src/view/index.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,64 +53,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/index.js">
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/view/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-759">
-              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-              <folding>
-                <element signature="e#29#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="route.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/route.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="125">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global-config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/global-config.js">
+      <file leaf-file-name="task.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.js">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/index.js">
+      <file leaf-file-name="goods.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/goods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="module.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="125">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="20" />
+              <folding>
+                <element signature="e#927#948#0" expanded="true" />
+                <element signature="e#1247#1283#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/csc-task/csc-task-dao/src/main/resources/mapper/user/adminMapper.xml" />
-        <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/AdminServiceimpl.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/impl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/Test.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-rpc-service/src/main/java/pres/haimi/csc/task/rpc/service/user/PlainUserService.java" />
@@ -197,17 +185,19 @@
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/view/auth/Login.vue" />
         <option value="$PROJECT_DIR$/csc-task/csc-task-api/src/main/java/pres/haimi/csc/task/api/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/router/module.js" />
-        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue" />
-        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/view/index.vue" />
-        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.vue" />
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/components/NProgress.vue" />
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/http/index.js" />
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/http/ajaxUtils.js" />
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/router/index.js" />
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/route.js" />
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/global-config.js" />
-        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.js" />
         <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/store/index.js" />
+        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Footer.vue" />
+        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.js" />
+        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/view/index.vue" />
+        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.nav.vue" />
+        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue" />
+        <option value="$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.vue" />
       </list>
     </option>
   </component>
@@ -263,8 +253,8 @@
     <handled-path value="$PROJECT_DIR$/csc-task/csc-front/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="451" />
-    <option name="y" value="387" />
+    <option name="x" value="416" />
+    <option name="y" value="119" />
     <option name="width" value="1472" />
     <option name="height" value="745" />
   </component>
@@ -318,6 +308,41 @@
               <item name="csc-front" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc-final" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-front" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc-final" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-front" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc-final" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-front" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc-final" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-task" type="462c0819:PsiDirectoryNode" />
+              <item name="csc-front" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csc-final" type="b2602c69:ProjectViewProjectNode" />
@@ -440,11 +465,11 @@
       <recent name="pres.haimi.csc.task.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea\WorkSpace\csc-final\csc-task\csc-front\client\src\components" />
       <recent name="D:\Idea\WorkSpace\csc-final\csc-task\csc-front\client\src\router" />
       <recent name="D:\Idea\WorkSpace\csc-final\csc-task\csc-front\client\src\assets\css" />
       <recent name="D:\Idea\WorkSpace\csc-final\csc-task\csc-front\client\src\assets\fonts" />
       <recent name="D:\Idea\WorkSpace\csc-final\csc-task\csc-task-api\src\main\webapp" />
-      <recent name="D:\Idea\WorkSpace\csc-final\csc-task\csc-front\client\src\http" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1060,7 +1085,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187728000" />
+    <option name="totallyTimeSpent" value="190428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1189,66 +1214,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="34" column="74" lean-forward="false" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-common/src/main/java/pres/haimi/csc/task/common/CommonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="210" column="26" lean-forward="false" selection-start-line="210" selection-start-column="26" selection-end-line="210" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-task-api/src/main/resources/configs/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="89" column="19" lean-forward="true" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
-          <folding>
-            <element signature="e#1257#1278#0" expanded="false" />
-            <element signature="e#1321#1334#0" expanded="false" />
-            <element signature="e#1378#1396#0" expanded="false" />
-            <element signature="e#1440#1458#0" expanded="false" />
-            <element signature="e#1509#1534#0" expanded="false" />
-            <element signature="e#1581#1602#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-task-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1465,14 +1430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/view/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/socket/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1507,22 +1464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/components/ContentModule.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/components/NProgress.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -1547,40 +1488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding>
-            <element signature="e#29#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/global-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -1589,10 +1496,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/static/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/global-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#29#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.nav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/components/Footer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2225">
+          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/components/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/store/modules/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/components/ContentModule.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="125">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#927#948#0" expanded="true" />
+            <element signature="e#1247#1283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/view/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/goods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csc-task/csc-front/client/src/router/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,6 @@
 
 const state = {
-  showLogin:false
+  showLogin:true
 }
 
 const mutations = {

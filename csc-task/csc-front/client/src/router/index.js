@@ -4,29 +4,26 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import store from '../store'
-import { userInitPromise } from '../store/modules/user'
-import otherModuleRoutes from './module'
+
+
 Vue.use(VueRouter)
 
 const routes = [{
-  path: '/login',
+  path: '/',
   component: (resolve) => {
-    require(['../view/auth/Login.vue'], resolve)
+    require(['../view/index.vue'], resolve)
   },
   meta: {
     skipAuth: true
   }
-}, {
-  path: '/',
+},{
+  path:'/index',
   component: (resolve) => {
-    require(['../view/CommonView.vue'], resolve)
-  },
-  children: [...otherModuleRoutes, {
-    path: '/', redirect: '/login'
-  }]
-}, {
+    require(['../view/index.vue'], resolve)
+  }
+},{
   path: '*',
-  component: {
+    component: {
     render (h) {
       return h('div', { staticClass: 'flex flex-main-center', attrs: { style: 'width:100%;font-size:32px' }}, 'Page not found')
     }
@@ -41,23 +38,13 @@ const router = new VueRouter({
 })
 
 // router
-/**
+
 router.beforeEach((to, from, next) => {
   // 确保用户身份信息已获取
-  userInitPromise.then(() => {
     store.dispatch('changeRouteLoading', true).then(() => {
-      // has logged in, redirect
-      if (to.path === '/login' && store.getters.loggedIn) {
-        return next(false)
-      }
       if (!to.meta.skipAuth) {
-        // this route requires auth, check if logged in
-        // if not, redirect to login page.
-        if (!store.getters.loggedIn) {
-          next({
-            path: '/login',
-            query: { redirect: to.fullPath }
-          })
+        if (!store.getters.isLogin) {
+            next()
         } else {
           next()
         }
@@ -65,8 +52,7 @@ router.beforeEach((to, from, next) => {
         next()
       }
     })
-  })
-})**/
+})
 
 router.afterEach(() => {
   store.dispatch('changeRouteLoading', false)

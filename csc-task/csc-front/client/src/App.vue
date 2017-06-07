@@ -1,8 +1,8 @@
 <template>
   <div id="app-main">
     <div class="app-wrapper">
+      <e-header></e-header>
       <div class="app-container" :class="{active: false}">
-        <!-- <router-loading></router-loading> -->
         <router-view></router-view>
       </div>
       <n-progress parent=".app-wrapper"></n-progress>
@@ -11,9 +11,10 @@
 </template>
 <script>
 import Vue from 'vue'
-// import RouterLoading from './components/RouterLoading'
+import EHeader from './components/Header'
 import NProgress from './components/NProgress'
 import ContentModule from './components/ContentModule'
+Vue.component('EHeader',EHeader)
 Vue.component('ContentModule', ContentModule)
 export default {
 

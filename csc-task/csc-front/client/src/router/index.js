@@ -22,7 +22,7 @@ const routes = [{
     require(['../view/CommonView.vue'], resolve)
   },
   children: [...otherModuleRoutes, {
-    path: '/', redirect: '/dashboard'
+    path: '/', redirect: '/login'
   }]
 }, {
   path: '*',

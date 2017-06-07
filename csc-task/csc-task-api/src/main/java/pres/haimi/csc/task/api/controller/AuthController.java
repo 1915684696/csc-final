@@ -29,9 +29,7 @@ public class AuthController extends BaseController{
             @RequestParam("name") String name,
             @RequestParam("password") String password,
                     HttpSession session) {
-        System.out.println(name+password+"---------->");
         PlainUser user=plainUserService.getPlainUser(name);
-
         Subject subject= SecurityUtils.getSubject();
         UsernamePasswordToken token=new UsernamePasswordToken(name,password);
         try {

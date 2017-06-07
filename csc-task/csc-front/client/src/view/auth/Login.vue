@@ -2,8 +2,7 @@
   <div class="login-wrapper">
     <div class="bg"></div>
     <h1>CSC</h1>
-    <el-form ref="form" :model="form" :rules="rules"
-      @submit.native.prevent="onSubmit">
+    <el-form ref="form" :model="form" :rules="rules">
       <el-form-item prop="username">
         <el-input v-model="form.name" placeholder="请输入用户名"></el-input>
       </el-form-item>
@@ -11,15 +10,14 @@
         <el-input v-model="form.password" type="password" placeholder="请输入密码"></el-input>
       </el-form-item>
       <el-form-item>
-        <el-button class="login-button" :class="{error: loginError}" type="success"
-           :loading="loading" @click="loginIn">登录</el-button>
+        <el-button class="login-button" type="success" @click="loginIn">登录</el-button>
       </el-form-item>
     </el-form>
   </div>
 </template>
 <script>
-import { mapGetters, mapActions } from 'vuex'
 import ajaxUtils from '../../http/ajaxUtils'
+import {setSessionUser} from '../../storage/index'
 export default {
   data () {
     return {
@@ -34,14 +32,8 @@ export default {
         password: [{
           required: true, message: '请输入密码', trigger: 'blur'
         }]
-      },
-      loading: false,
-      valid: false,
-      loginError: false
+      }
     }
-  },
-  computed: {
-    ...mapGetters(['loggedIn'])
   },
   methods: {
     loginIn(){
@@ -49,36 +41,10 @@ export default {
       ajaxUtils.post("/api/login",params,(result)=>{
         if (result!=-1 && result.code==200) {
           alert("登陆成功")
-          this.$router.push("/")
+          this.$router.push("/dashboard")
+          setSessionUser(result.result.user)
         } else{
           alert(result.message);
-        }
-      })
-    },
-    ...mapActions(['login']),
-    onSubmit () {
-      this.$refs.form.validate(valid => {
-        if (valid) {
-          this.loading = true
-          this.login({
-            username: this.form.username,
-            password: this.form.password
-          }).then((data) => {
-            this.loading = false
-            this.$router.push(this.$route.query.redirect || '/')
-          }).catch((err) => {
-            this.$notify({
-              title: 'undefined',
-              message: err.message || 'undefined',
-              type: 'error',
-              duration: 1500
-            })
-            this.loading = false
-            this.loginError = true
-            setTimeout(() => {
-              this.loginError = false
-            }, 500)
-          })
         }
       })
     }

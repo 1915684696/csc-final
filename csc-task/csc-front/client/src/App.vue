@@ -1,9 +1,7 @@
 <template>
   <div id="app-main">
-    <x-menu></x-menu>
     <div class="app-wrapper">
-      <x-header></x-header>
-      <div class="app-container" :class="{active: true}">
+      <div class="app-container" :class="{active: false}">
         <!-- <router-loading></router-loading> -->
         <router-view></router-view>
       </div>
@@ -13,8 +11,6 @@
 </template>
 <script>
 import Vue from 'vue'
-import XHeader from './components/Header'
-import XMenu from './components/Menu'
 // import RouterLoading from './components/RouterLoading'
 import NProgress from './components/NProgress'
 import ContentModule from './components/ContentModule'
@@ -22,8 +18,6 @@ Vue.component('ContentModule', ContentModule)
 export default {
 
   components: {
-    XHeader,
-    XMenu,
     NProgress
   }
 }

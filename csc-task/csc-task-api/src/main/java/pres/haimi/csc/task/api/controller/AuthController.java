@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import pres.haimi.csc.task.common.CommonResult;
 import pres.haimi.csc.task.model.apiwrapper.APIResult;
 import pres.haimi.csc.task.model.user.PlainUser;
+import pres.haimi.csc.task.rpc.service.AuthResult;
 import pres.haimi.csc.task.rpc.service.user.PlainUserService;
 
 import javax.servlet.http.HttpSession;
@@ -36,7 +38,7 @@ public class AuthController extends BaseController{
             subject.login(token);
             session.setAttribute("user",user);
             session.setAttribute("userId",user.getId());
-            return asSuccess(user);
+            return asSuccess(new AuthResult(true, CommonResult.SUCCESS_LOGIN,user));
         }catch (Exception e){
             return asUnLogin(e.getMessage());
         }

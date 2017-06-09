@@ -11,4 +11,5 @@ public class CommonResult {
     public final static String IMCOMPLETE_MESSAGE = "信息不完整";
     public final static String INVALIDATE_TIME="时间范围不合法";
     public final static String EXIST_USER="用户已存在";
+    public final static String SUCCESS_LOGIN="登陆成功";
 }

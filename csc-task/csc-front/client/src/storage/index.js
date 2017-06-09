@@ -13,7 +13,6 @@ export function  getSessionUser() {
   let obj = session.getItem(USER_KEY);
   console.log(obj)
   if (obj!=null && obj!="undefined" && typeof obj != "undefined") {
-
     return JSON.parse(obj)
   }
   return null

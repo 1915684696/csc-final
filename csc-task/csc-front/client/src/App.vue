@@ -8,7 +8,7 @@
       <e-footer></e-footer>
       <n-progress parent=".app-wrapper"></n-progress>
     </div>
-    <el-dialog :close-on-click-modal="false" :show-close="false" title="提示" v-model="login" size="tiny">
+    <el-dialog :close-on-click-modal="false" :show-close="false" title="登陆" v-model="login" size="tiny">
       <el-form :model="form">
         <el-form-item label="用户名">
           <el-input v-model="form.userName" auto-complete="off"></el-input>
@@ -18,7 +18,7 @@
         </el-form-item>
       </el-form>
       <div slot="footer">
-        <el-button type="info">返回</el-button>
+        <el-button @click="cancelIn" type="info">返回</el-button>
         <el-button @click="loginIn" type="success">登陆</el-button>
       </div>
     </el-dialog>
@@ -30,13 +30,18 @@ import EHeader from './components/Header'
 import EFooter from './components/Footer'
 import ContentModule from './components/ContentModule'
 import NProgress from './components/NProgress'
-Vue.component('EHeader',EHeader)
-Vue.component('EFooter',EFooter)
-Vue.component('ContentModule', ContentModule)
 import store from './store/index.js'
 import ajaxUtils from './http/ajaxUtils'
 import {setSessionUser} from './storage/index'
+Vue.component('EHeader',EHeader)
+Vue.component('EFooter',EFooter)
+Vue.component('ContentModule', ContentModule)
 export default {
+  computed:{
+    login: ()=> {
+      return store.getters.showLogin
+    }
+  },
   data() {
     return {
       form: {
@@ -45,23 +50,24 @@ export default {
       }
     }
   },
-  computed: {
-    login: ()=> {
-      return store.getters.showLogin
-    }
-  },
   methods:{
     loginIn() {
       let params = {name:this.form.userName,password:this.form.password}
       ajaxUtils.post("/api/login",params,(result)=>{
         if (result!=-1 && result.code==200) {
-          alert("登陆成功")
+          this.$message.success(result.result.message)
           setSessionUser(result.result.user)
           store.commit("SHOW_LOGIN",false)
+          store.commit("IS_LOGIN",true)
         } else{
-          alert(result.message)
+          this.$message.error(result.message)
+          store.commit("IS_LOGIN",false)
         }
       })
+    },
+    cancelIn(){
+      store.commit("SHOW_LOGIN",false)
+      store.commit("IS_LOGIN",false)
     }
   },
   components: {

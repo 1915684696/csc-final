@@ -4,7 +4,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import store from '../store'
-
+import task from './task'
+import user from './user'
 
 Vue.use(VueRouter)
 
@@ -21,7 +22,9 @@ const routes = [{
   component: (resolve) => {
     require(['../view/index.vue'], resolve)
   }
-},{
+}, ...task,
+  ...user,
+  {
   path: '*',
     component: {
     render (h) {

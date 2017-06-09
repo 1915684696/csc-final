@@ -1,16 +1,16 @@
 <template>
   <content-module name="dashboard">
     <header-nav></header-nav>
-    <task-list></task-list>
+    <task></task>
   </content-module>
 </template>
 <script>
   import HeaderNav from '../components/Header.nav.vue'
-  import TaskList from './task/TaskList'
+  import Task from './task/Task'
   export default {
     components: {
       HeaderNav,
-      TaskList
+      Task
     }
   }
 </script>

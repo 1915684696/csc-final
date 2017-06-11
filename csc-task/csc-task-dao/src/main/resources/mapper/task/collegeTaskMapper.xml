@@ -13,11 +13,11 @@
         <result column="t_pic" property="pic"></result>
         <result column="p_id" property="publishUserId"></result>
         <result column="a_id" property="acceptUserId"></result>
-        <result column="title" property="title"></result>
+        <result column="t_task_type" property="taskType"></result>
     </resultMap>
 
     <insert id="add" parameterType="pres.haimi.csc.task.model.task.CollegeTask">
-        INSERT INTO college_task VALUES(#{id},#{publishDate},#{endTime},#{description},#{pay},#{state},#{collectTimes},#{pic},#{publishUserId},#{acceptUserId},#{title})
+        INSERT INTO college_task VALUES(#{id},#{publishDate},#{endTime},#{description},#{pay},#{state},#{collectTimes},#{pic},#{publishUserId},#{acceptUserId},#{taskType})
     </insert>
 
     <select id="select" resultMap="collegeTask">
@@ -26,6 +26,10 @@
 
     <select id="selectAll" resultMap="collegeTask">
        SELECT * FROM college_task
+    </select>
+
+    <select id="selectUnAccpetTask" resultMap="collegeTask">
+        SELECT * FROM college_task WHERE a_id=""
     </select>
 
     <select id="selectByName" resultMap="collegeTask">
@@ -46,7 +50,7 @@
 
     <update id="update" parameterType="pres.haimi.csc.task.model.task.CollegeTask">
         UPDATE college_task SET t_publish_date=#{publishDate},t_end_time=#{endTime},t_description=#{description},t_pay=#{pay},
-        t_state=#{state},t_collect_times=#{collectTimes},t_pic=#{pic},p_id=#{publishUserId},a_id=#{acceptUserId},title=#{title} WHERE t_id=#{id}
+        t_state=#{state},t_collect_times=#{collectTimes},t_pic=#{pic},p_id=#{publishUserId},a_id=#{acceptUserId},t_task_type=#{taskType} WHERE t_id=#{id}
     </update>
 
     <delete id="delete">

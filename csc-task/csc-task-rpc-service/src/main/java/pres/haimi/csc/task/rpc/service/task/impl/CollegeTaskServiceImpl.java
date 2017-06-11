@@ -8,6 +8,7 @@ import pres.haimi.csc.task.dao.user.PlainUserDao;
 import pres.haimi.csc.task.model.task.CollegeTask;
 import pres.haimi.csc.task.model.user.PlainUser;
 import pres.haimi.csc.task.rpc.service.task.CollegeTaskService;
+import pres.haimi.csc.task.rpc.service.task.dto.TaskTemplateDto;
 
 import java.util.*;
 
@@ -24,20 +25,24 @@ public class CollegeTaskServiceImpl implements CollegeTaskService{
 
     //按发布者分类
     @Override
-    public Map<String, List<CollegeTask>> getAllTasks() {
-        List<CollegeTask> taskList=collegeTaskDao.selectAll();
-        if(Objects.equals(taskList,null)||taskList.size()==0){
-            return Collections.EMPTY_MAP;
+    public  List<TaskTemplateDto> getAllTaskTemplate() {
+        List<CollegeTask> taskList = collegeTaskDao.selectUnAccpetTask();
+        if (Objects.equals(taskList, null) || taskList.size() == 0) {
+            return Collections.EMPTY_LIST;
         }
-        Map<String, List<CollegeTask>> taskMap=new HashMap<>();
-        taskList.stream().forEach(task->{
-            String key=task.getPublishUserId();
-            PlainUser user=userDao.select(key);
-            if(Objects.equals(user,null)&&Objects.equals(user.getName(),null)){
-                taskMap.put(user.getName(),taskList);
+        List<TaskTemplateDto> taskTemplateDtoList=new ArrayList<>();
+        taskList.forEach(task -> {
+            TaskTemplateDto taskTemplateDto=new TaskTemplateDto(task.getId(),task.getPublishDate(),task.getEndTime(),
+                    task.getTaskType(),task.getDescription(),task.getPay(),task.getState(),task.getCollectTimes(),task.getPic());
+            String key = task.getPublishUserId();
+            PlainUser user = userDao.selectByUserId(key);
+            if (user != null && user.getName() != null) {
+                taskTemplateDto.setName(user.getName());
+                taskTemplateDto.setAvatars(user.getAvatars());
             }
+            taskTemplateDtoList.add(taskTemplateDto);
         });
-        return taskMap;
+        return taskTemplateDtoList;
     }
 
     //私人发布的

@@ -12,4 +12,5 @@ public interface CollegeTaskDao extends BaseDao<CollegeTask,Integer>{
     List<CollegeTask> selectByPublishUserId(String publishUserId);
     List<CollegeTask> selectByAcceptUserId(String acceptUserId);
     List<CollegeTask> selectByState(Integer state);
+    List<CollegeTask> selectUnAccpetTask();
 }

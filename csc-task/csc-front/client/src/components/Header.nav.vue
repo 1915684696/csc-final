@@ -4,7 +4,7 @@
       <el-col :offset="6" :span="12">
         <el-row :gutter="20">
           <el-col :span="6"><div class="small-title"><i class="iconfont icon-jiaoshi-copy">&nbsp;</i> <a class="small-title" href="/task">TASK</a></div></el-col>
-          <el-col :span="6"><div class="small-title"><i class="iconfont icon-xuesheng"></i>&nbsp;<a class="small-title" href="/goods">GOODS</a></div></el-col>
+          <el-col :span="6"><div class="small-title"><i class="iconfont icon-xuesheng"></i>&nbsp;<a class="small-title" href="/ranking">RANKING</a></div></el-col>
           <el-col :span="6"><div class="small-title"><i class="iconfont icon-shiyanshi1"></i>&nbsp;<a class="small-title" href="/user">USER</a></div></el-col>
           <el-col :span="6"><div class="small-title"><i class="iconfont icon-about"></i>&nbsp;<a class="small-title" href="/contact">CONTACT</a></div></el-col>
         </el-row>

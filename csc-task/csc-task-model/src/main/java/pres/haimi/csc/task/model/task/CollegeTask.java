@@ -17,7 +17,7 @@ public class CollegeTask implements Serializable{
     private Integer id;//编号
     private Date publishDate;//发布时间
     private Date endTime;//结束时间
-    private String title;//标题
+    private String taskType;//任务类型
     private String description;//任务描述
     private Double pay;//酬谢金额
     private Integer state;//任务状态  0:未接收 1：进行时 2：已完成 3：未完成  -1:无效

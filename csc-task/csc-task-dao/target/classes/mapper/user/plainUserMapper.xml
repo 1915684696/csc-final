@@ -25,6 +25,10 @@
         SELECT * FROM user_info WHERE u_name=#{id}
     </select>
 
+    <select id="selectByUserId" resultMap="user">
+        SELECT * FROM user_info WHERE u_id=#{userId}
+    </select>
+
     <select id="selectAll" resultMap="user">
         SELECT * FROM user_info
     </select>

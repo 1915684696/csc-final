@@ -7,4 +7,5 @@ import pres.haimi.csc.task.model.user.PlainUser;
  * Created by HaimiZhou on 2017/5/23.
  */
 public interface PlainUserDao extends BaseDao<PlainUser,String>{
+    PlainUser selectByUserId(String userId);
 }

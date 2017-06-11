@@ -9,7 +9,7 @@
              <el-col :span="6">
                  <div class="header-con">
                      <h1 class="p-title">
-                         <a href="/">ECSC</a>
+                         <a href="/">ETASK</a>
                      </h1>
                  </div>
              </el-col>

@@ -18,6 +18,6 @@ public class TaskController extends BaseController{
 
     @RequestMapping("/all")
     public APIResult getAllTask(){
-        return asSuccess(collegeTaskService.findTasksByState(0));
+        return asSuccess(collegeTaskService.getAllTaskTemplate());
     }
 }

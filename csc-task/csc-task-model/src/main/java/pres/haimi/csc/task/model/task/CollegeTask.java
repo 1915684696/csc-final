@@ -14,7 +14,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CollegeTask implements Serializable{
-    private Integer id;//编号
+    private String id;//编号
     private Date publishDate;//发布时间
     private Date endTime;//结束时间
     private String taskType;//任务类型

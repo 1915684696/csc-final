@@ -25,7 +25,7 @@
         })
       }
     },
-    mounted() {
+    created() {
       this.initData()
     },
     components:{

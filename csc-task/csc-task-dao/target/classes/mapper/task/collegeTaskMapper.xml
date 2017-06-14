@@ -20,8 +20,8 @@
         INSERT INTO college_task VALUES(#{id},#{publishDate},#{endTime},#{description},#{pay},#{state},#{collectTimes},#{pic},#{publishUserId},#{acceptUserId},#{taskType})
     </insert>
 
-    <select id="select" resultMap="collegeTask">
-        SELECT * FROM college_task WHERE t_id=#{id}
+    <select id="selectTask" resultMap="collegeTask">
+        SELECT * FROM college_task WHERE t_id=#{taskId}
     </select>
 
     <select id="selectAll" resultMap="collegeTask">

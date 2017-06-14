@@ -18,4 +18,10 @@ public class CollectTask implements Serializable{
     private String taskId;
     private String userId;
     private Date collectDate;
+
+    public CollectTask(String taskId, String userId, Date collectDate) {
+        this.taskId = taskId;
+        this.userId = userId;
+        this.collectDate = collectDate;
+    }
 }

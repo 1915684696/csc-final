@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * 基础的控制器，里面放公用方法
@@ -28,10 +29,22 @@ public class BaseController {
         return (int)request.getAttribute(Auth.AUTH);
     }
 
+    protected APIResult handleNoAuth(Integer auth) {
+        if (Objects.equals(auth, Auth.BLACK)) {
+            return asUnAuthError("权限被限制，请联系管理员！");
+        }
+        if (Objects.equals(auth,Auth.NO_AUTH)) {
+            return asUnLogin("请先登陆");
+        }
+        return asUnAuthError("没有权限！");
+    }
+
     protected <T> APIResult<T> asSuccess(T t) {
 		return new APIResult<>(APIResultCode.SUCCESS.getValue(), null, t);
 	}
-
+    protected <T> APIResult<T> asSuccess(T t,String message) {
+        return new APIResult<>(APIResultCode.SUCCESS.getValue(), message, t);
+    }
 	protected APIResult<String> asError(String message) {
 		return new APIResult<>(APIResultCode.ERROR.getValue(), message, null);
 	}

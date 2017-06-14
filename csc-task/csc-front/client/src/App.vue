@@ -32,13 +32,16 @@ import ContentModule from './components/ContentModule'
 import NProgress from './components/NProgress'
 import store from './store/index.js'
 import ajaxUtils from './http/ajaxUtils'
-import {setSessionUser} from './storage/index'
+import {setSessionUser,getSessionUser} from './storage/index'
 Vue.component('EHeader',EHeader)
 Vue.component('EFooter',EFooter)
 Vue.component('ContentModule', ContentModule)
 export default {
   computed:{
     login: ()=> {
+      if (getSessionUser()!=null) {
+        store.commit("SHOW_LOGIN",false)
+      }
       return store.getters.showLogin
     }
   },
@@ -56,7 +59,6 @@ export default {
       ajaxUtils.post("/api/login",params,(result)=>{
         if (result!=-1 && result.code==200) {
           this.$message.success(result.result.message)
-          setSessionUser(result.result.user)
           store.commit("SHOW_LOGIN",false)
           store.commit("IS_LOGIN",true)
         } else{

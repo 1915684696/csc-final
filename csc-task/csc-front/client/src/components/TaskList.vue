@@ -20,11 +20,11 @@
           <div id="list-bottom">
             <span class="pay">￥{{item.pay}}</span>
             <span class="collect-count">
-              <i class="iconfont icon-xihuan2" style="margin-bottom: 10px" @click="collect(item.id)"></i>
-              <span>{{Task.collectTimes}}</span>
+                <el-button size="small"  @click="collectTask"><i class="iconfont icon-xihuan2" style="margin-bottom: 10px"></i></el-button>
+                <span>{{Task.collectTimes}}</span>
             </span>
             <i class="iconfont icon-contact contact"></i>
-            <el-button type="primary" size="small" class="button accept" @click="accpet(item.id)" style="margin-top:-10px">接受任务</el-button>
+            <el-button type="primary" size="small" class="button accept">接受任务</el-button>
           </div>
         </div>
       </el-card>
@@ -34,6 +34,9 @@
 
 <script>
   import commonUtils from "../common/commonUtils"
+  import ajaxUtils from '../http/ajaxUtils'
+  import store from '../store/index'
+  import router from '../router/index'
   export default {
     data() {
       return {
@@ -42,7 +45,7 @@
         },
         Task: {
           pic: this.item.pic,
-          collectTimes:this.item.collectTimes
+          collectTimes:'0'
         }
       }
     },
@@ -53,12 +56,23 @@
       },
       endTime: function () {
         return commonUtils.formatDate(this.item.endTime, "hh:mm")
-      }
+      }/*,
+      collectTimes:  function () {return store.getters.collectTimes}*/
     },
-    method:{
-      collect:(id)=>{
-        //收藏
-        //在原来基础上收藏次数加1
+    methods:{
+      collectTask(){
+        let params = {taskId:this.item.id}
+        ajaxUtils.post("/api/task/collect",params,result=>{
+          if (result.code == 200) {
+            this.Task.collectTimes=result.result.collectTimes
+            /*store.commit("COLLECT_TIMES",result.result.collectTimes)*/
+            this.$message.success(result.message)
+          }else {
+            this.$message.success(result.message)
+            store.commit("SHOW_LOGIN",true)
+          }
+        })
+
       }
     }
   }
@@ -98,6 +112,6 @@
     float: right;
   }
   .contact{
-    margin-left:650px;
+    margin-left:600px;
   }
 </style>

@@ -8,7 +8,7 @@ import java.util.Date;
 public class TaskTemplateDto {
     private String name;
     private String avatars;//若是空 ，前台判断并给出默认头像
-    private Integer id;//编号
+    private String id;//编号
     private Date publishDate;//发布时间
     private Date endTime;//结束时间
     private String taskType;//任务类型
@@ -35,7 +35,7 @@ public class TaskTemplateDto {
             return value;
         }
     }
-    public TaskTemplateDto(Integer id,Date publishDate, Date endTime, String taskType, String description, Double pay, Integer state,Integer collectTimes, String pic) {
+    public TaskTemplateDto(String id,Date publishDate, Date endTime, String taskType, String description, Double pay, Integer state,Integer collectTimes, String pic) {
         this.id=id;
         this.publishDate = publishDate;
         this.endTime = endTime;
@@ -47,11 +47,11 @@ public class TaskTemplateDto {
         this.pic = pic;
     }
 
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 

@@ -1,7 +1,9 @@
 package pres.haimi.csc.task.rpc.service.task.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import pres.haimi.csc.task.common.CommonResult;
+import pres.haimi.csc.task.common.utils.DateUtils;
 import pres.haimi.csc.task.dao.task.CollectTaskDao;
 import pres.haimi.csc.task.model.task.CollectTask;
 import pres.haimi.csc.task.rpc.service.task.CollectTaskService;
@@ -13,6 +15,7 @@ import java.util.Objects;
 /**
  * Created by HaimiZhou on 2017/5/27.
  */
+@Service
 public class CollectTaskServiceImpl implements CollectTaskService{
     @Autowired
     private CollectTaskDao collectTaskDao;
@@ -32,7 +35,7 @@ public class CollectTaskServiceImpl implements CollectTaskService{
         if (Objects.equals(taskId,null)||Objects.equals(userId,null)){
             return CommonResult.ERROR;
         }
-        CollectTask collectTask=new CollectTask(1,taskId,userId,new Date());
+        CollectTask collectTask=new CollectTask(taskId,userId,new Date());
         int result=collectTaskDao.add(collectTask);
         if (result>0){
             return CommonResult.SUCCESS;
@@ -53,6 +56,19 @@ public class CollectTaskServiceImpl implements CollectTaskService{
             return CommonResult.SUCCESS;
         }else{
             return CommonResult.ERROR;
+        }
+    }
+
+    @Override
+    public boolean isCollect(String userId, String taskId) {
+        if (Objects.equals(taskId,null)||Objects.equals(userId,null)){
+            return false;
+        }
+        CollectTask collectTask=collectTaskDao.selectCollectTask(userId, taskId);
+        if (collectTask!=null){
+            return true;
+        }else {
+            return false;
         }
     }
 }

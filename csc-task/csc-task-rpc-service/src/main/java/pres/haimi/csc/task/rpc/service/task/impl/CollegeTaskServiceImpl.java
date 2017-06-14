@@ -23,6 +23,14 @@ public class CollegeTaskServiceImpl implements CollegeTaskService{
     @Autowired
     private PlainUserDao userDao;
 
+    @Override
+    public CollegeTask selectTaskById(String taskId) {
+        if (Objects.equals(taskId,null)){
+            return null;
+        }
+        return collegeTaskDao.selectTask(taskId);
+    }
+
     //按发布者分类
     @Override
     public  List<TaskTemplateDto> getAllTaskTemplate() {

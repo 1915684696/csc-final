@@ -44,7 +44,7 @@ export default {
   },
   computed:{
     flag:()=>{
-      if (store.getters.isLogin){
+      if (getSessionUser()!=null){
         return true
       }else {
         return false

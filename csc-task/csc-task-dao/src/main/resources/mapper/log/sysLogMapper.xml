@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 4.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pres.haimi.csc.task.dao.log.SysLogDao">
+    <resultMap id="sysLog" type="pres.haimi.csc.task.model.common.SystemLog">
+        <id column="id"  property="id"></id>
+        <result column="operation" property="operation"></result>
+        <result column="user_name" property="userName"></result>
+        <result column="ip" property="ip"></result>
+        <result column="method" property="method"></result>
+        <result column="params" property="params"></result>
+        <result column="operate_time" property="operateTime"></result>
+    </resultMap>
+
+    <insert id="add" parameterType="pres.haimi.csc.task.model.common.SystemLog">
+        INSERT INTO sys_log(operation,user_name,ip,method,params,operate_time) VALUES (#{operation},#{userName},#{ip},#{method},#{params},#{operateTime})
+    </insert>
+
+    <select id="select" resultMap="sysLog">
+        SELECT * FROM collect_task WHERE id=#{id}
+    </select>
+
+    <select id="selectAll" resultMap="sysLog">
+        SELECT * FROM collect_task
+    </select>
+
+    <update id="update" parameterType="pres.haimi.csc.task.model.common.SystemLog">
+        UPDATE sys_log SET operation=#{operation},user_name=#{userName},ip=#{ip},method=#{method},params=#{params},operate_time=#{operate_time} WHERE id=#{id}
+    </update>
+
+    <delete id="delete">
+        DELETE FROM sys_log WHERE id=#{id}
+    </delete>
+</mapper>

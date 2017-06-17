@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import pres.haimi.csc.task.api.log.annotation.SysLog;
 import pres.haimi.csc.task.common.Auth;
 import pres.haimi.csc.task.dao.task.CollegeTaskDao;
 import pres.haimi.csc.task.model.apiwrapper.APIResult;
@@ -32,6 +33,8 @@ public class CollectController extends BaseController{
 
     @Autowired
     private CollectTaskBo collectTaskBo;
+
+    @SysLog("收藏任务")
     @RequestMapping("/collect")
     public APIResult collectTask(
             @RequestParam("taskId") String taskId,

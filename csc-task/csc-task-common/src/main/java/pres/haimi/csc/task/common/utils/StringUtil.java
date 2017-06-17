@@ -21,4 +21,11 @@ public class StringUtil {
         }
         return false;
     }
+
+    public static boolean isEmpty(String ip) {
+        if (Objects.equals(ip,null)) {
+            return true;
+        }
+        return false;
+    }
 }

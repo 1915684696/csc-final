@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import pres.haimi.csc.task.api.log.annotation.SysLog;
 import pres.haimi.csc.task.common.CommonResult;
 import pres.haimi.csc.task.model.apiwrapper.APIResult;
 import pres.haimi.csc.task.model.user.PlainUser;

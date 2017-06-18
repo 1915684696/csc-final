@@ -17,11 +17,11 @@
     </insert>
 
     <select id="select" resultMap="sysLog">
-        SELECT * FROM collect_task WHERE id=#{id}
+        SELECT * FROM sys_log WHERE id=#{id}
     </select>
 
     <select id="selectAll" resultMap="sysLog">
-        SELECT * FROM collect_task
+        SELECT * FROM sys_log
     </select>
 
     <update id="update" parameterType="pres.haimi.csc.task.model.common.SystemLog">

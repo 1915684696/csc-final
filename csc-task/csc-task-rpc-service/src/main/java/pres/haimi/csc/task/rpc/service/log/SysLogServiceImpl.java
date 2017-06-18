@@ -6,6 +6,8 @@ import pres.haimi.csc.task.common.CommonResult;
 import pres.haimi.csc.task.dao.log.SysLogDao;
 import pres.haimi.csc.task.model.common.SystemLog;
 
+import java.util.Collections;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -28,5 +30,14 @@ public class SysLogServiceImpl implements SysLogService{
         }else {
             return CommonResult.INSERT_ERROR;
         }
+    }
+
+    @Override
+    public List<SystemLog> findAll() {
+        List<SystemLog> systemLogList=sysLogDao.selectAll();
+        if (Objects.equals(systemLogList,null)) {
+            return Collections.emptyList();
+        }
+        return systemLogList;
     }
 }

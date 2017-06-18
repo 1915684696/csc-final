@@ -10,6 +10,14 @@ import user from './user'
 Vue.use(VueRouter)
 
 const routes = [{
+  path: '/test',
+  component: (resolve) => {
+    require(['../view/test.vue'], resolve)
+  },
+  meta: {
+    skipAuth: true
+  }
+},{
   path: '/',
   component: (resolve) => {
     require(['../view/index.vue'], resolve)

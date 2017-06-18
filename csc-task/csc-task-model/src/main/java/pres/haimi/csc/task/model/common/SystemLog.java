@@ -23,5 +23,5 @@ public class SystemLog implements Serializable{
     private String method;
     //请求参数
     private String params;
-    
+
 }

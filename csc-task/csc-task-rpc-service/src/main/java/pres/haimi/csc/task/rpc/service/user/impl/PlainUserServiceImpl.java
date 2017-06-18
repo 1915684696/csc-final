@@ -7,7 +7,9 @@ import pres.haimi.csc.task.dao.user.PlainUserDao;
 import pres.haimi.csc.task.model.user.PlainUser;
 import pres.haimi.csc.task.rpc.service.user.PlainUserService;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -43,5 +45,21 @@ public class PlainUserServiceImpl implements PlainUserService {
             return null;
         }
         return plainUserDao.select(plainUserId);
+    }
+
+    @Override
+    public Map<String,Integer> getTaskSituationGram(String userId) {
+        if (Objects.equals(userId,null)) {
+            return null;
+        }
+        PlainUser plainUser=plainUserDao.selectByUserId(userId);
+        if (plainUser != null) {
+            Map<String,Integer> map=new HashMap<>();
+            map.put("发布次数",plainUser.getPublishTimes());
+            map.put("接受次数",plainUser.getAcceptTimes());
+            map.put("完成次数",plainUser.getFinishTimes());
+            return map;
+        }
+        return null;
     }
 }

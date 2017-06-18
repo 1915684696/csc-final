@@ -59,6 +59,7 @@ export default {
       ajaxUtils.post("/api/login",params,(result)=>{
         if (result!=-1 && result.code==200) {
           this.$message.success(result.result.message)
+          setSessionUser(result.result.user)
           store.commit("SHOW_LOGIN",false)
           store.commit("IS_LOGIN",true)
         } else{

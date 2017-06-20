@@ -71,12 +71,18 @@ public class SysLogAspect {
 		//用户名
 		HttpSession session = request.getSession();
 		PlainUser user = (PlainUser) session.getAttribute("user");
-		/*String username = ShiroUtils.getUserEntity().getName();*/
-		sysLog.setUserName(user.getName());
-		
-		sysLog.setOperateTime(new Date());
-		//保存系统日志
-		sysLogService.save(sysLog);
+
+		if(user==null){//未登陆不能保存当前收藏任务这个日志
+			return;
+		}else{
+			/*String username = ShiroUtils.getUserEntity().getName();*/
+			sysLog.setUserName(user.getName());
+
+			sysLog.setOperateTime(new Date());
+			//保存系统日志
+			sysLogService.save(sysLog);
+		}
+
 	}
 	
 }

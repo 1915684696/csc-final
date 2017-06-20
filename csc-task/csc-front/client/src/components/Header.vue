@@ -44,14 +44,16 @@ export default {
   },
   computed:{
     flag:()=>{
-      if (getSessionUser()!=null){
+      if (store.getters.isLogin || getSessionUser()!=null){
         return true
       }else {
         return false
       }
     },
     name(){
-      return getSessionUser().name
+      if (getSessionUser()!=null){
+        return getSessionUser().name
+      }
     }
   }
 }

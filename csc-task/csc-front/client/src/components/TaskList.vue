@@ -45,7 +45,7 @@
         },
         Task: {
           pic: this.item.pic,
-          collectTimes:'0'
+          collectTimes:this.item.collectTimes
         }
       }
     },
